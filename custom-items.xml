@@ -4,6 +4,9 @@
 		<name>Adventuring Gear</name>
 		<description></description>
 		<author>Celestia</author>
+		<update version="0.1.0">
+			<file name="custom-items.xml" url="https://github.com/miauam/custom_game_items/blob/master/custom-items.xml" />
+		</update>
 	</info>
 
 	<element name="Gas Mask" type="Item" source="Celestia" id="ID_CUSTOM_GAS_MASK">
