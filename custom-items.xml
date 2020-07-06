@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Adventuring Gear</name>
+		<description></description>
+		<author>Celestia</author>
+	</info>
+
+	<element name="Gas Mask" type="Item" source="Celestia" id="ID_CUSTOM_GAS_MASK">
+		<description>
+			<p>A gas mask found in a pile of bones.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Beef Jerky (Fancy)" type="Item" source="Saelyris" id="ID_CUSTOM_BEEF_JERKY">
+		<description>
+			<p>Excellent quality beef jerky</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>
